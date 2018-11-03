@@ -1,0 +1,20 @@
+{
+    "version": 3,
+    "mappings": "AMAA,AAAA,CAAC;AACD,CAAC,AAAA,OAAO,CAAC;EACL,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACzB;;AAED,AAAA,IAAI;AACJ,IAAI,CAAC;EACD,MAAM,EAAE,IAAI;EAEZ,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,mCACjB;CAAC;;AAED,AAAA,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf;;AAED,AAAA,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;CACxB",
+    "sources": [
+        "main.scss",
+        "abstracts/__abstacts-dir.scss",
+        "abstracts/_fonts.scss",
+        "abstracts/_mixins.scss",
+        "abstracts/_variables.scss",
+        "base/__base-dir.scss",
+        "base/_resets.scss",
+        "base/_typography.scss",
+        "layouts/__layouts-dir.scss",
+        "layouts/_navbar.scss",
+        "components/__components-dir.scss",
+        "components/_navbar.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
