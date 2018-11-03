@@ -1,0 +1,10 @@
+.navbar {
+    .navbar-item{
+        text-transform: uppercase;
+        font-size: 0.8em;
+        &:hover {
+            color: $primaryColor;
+            transition: 250ms;
+        }
+    }
+}

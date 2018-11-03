@@ -1,0 +1,28 @@
+.button{
+    display: block;
+    border-radius: 0.8em;
+    width: 13em;
+    padding: 0.5rem 2rem;
+    font-size: 0.9em;
+    text-align: center;
+    margin: 1em;
+}
+
+.documentation-button{
+    background-color: $primaryColor;
+    border: 1px solid $primaryColor;
+    &:hover{
+        // border: 1px solid $primaryColor;
+        background-color: #090909;
+        transition: 150ms;
+    }
+}
+
+.source_code-button{
+    border: 1px solid white;
+    &:hover{
+        border: 1px solid $primaryColor;
+        color: $primaryColor;
+        transition: 150ms;
+    }
+}

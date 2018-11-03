@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond:400,500,700");
 *,
 *:before {
   margin: 0;
@@ -9,6 +11,7 @@
 html,
 body {
   height: 100%;
+  width: 100%;
   line-height: 1.6;
   font-family: Tahoma, Verdana, Geneva, sans-serif;
 }
@@ -18,7 +21,167 @@ img {
   height: 100%;
 }
 
+.navbar li {
+  list-style: none;
+  padding: 1em;
+}
+
+.logo svg {
+  width: 5em;
+  height: 5em;
+  padding: 1em;
+}
+
 a {
   text-decoration: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  font-weight: bold;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3em;
+  width: 100%;
+  padding: 3em 1em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navbar-item {
+  display: inline-block;
+}
+
+.navbar .navbar-item_start {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
+.navbar_end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.nest-banner {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 3em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3em;
+}
+
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.flex-row-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-row-around {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navbar .navbar-item {
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.navbar .navbar-item:hover {
+  color: #e02450;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+
+section.top-header {
+  background-color: #090909;
+  height: 100vh;
+  color: white;
+}
+
+section.top-header a {
+  color: inherit;
+}
+
+.nest-banner .title {
+  text-align: center;
+  text-transform: lowercase;
+  padding: 0em 0.5em;
+  font-size: 5em;
+  font-family: 'EB Garamond', serif;
+  font-weight: lighter;
+}
+
+.nest-banner p {
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: 500;
+  width: 55%;
+}
+
+.button {
+  display: block;
+  border-radius: 0.8em;
+  width: 13em;
+  padding: 0.5rem 2rem;
+  font-size: 0.9em;
+  text-align: center;
+  margin: 1em;
+}
+
+.documentation-button {
+  background-color: #e02450;
+  border: 1px solid #e02450;
+}
+
+.documentation-button:hover {
+  background-color: #090909;
+  -webkit-transition: 150ms;
+  transition: 150ms;
+}
+
+.source_code-button {
+  border: 1px solid white;
+}
+
+.source_code-button:hover {
+  border: 1px solid #e02450;
+  color: #e02450;
+  -webkit-transition: 150ms;
+  transition: 150ms;
 }
 /*# sourceMappingURL=main.css.map */
