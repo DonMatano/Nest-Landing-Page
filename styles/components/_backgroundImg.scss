@@ -1,0 +1,11 @@
+.backgroundImg{
+    position: absolute;
+    z-index: -2;
+    height: 100%;
+    width: 100%;
+    background-color: #090909;
+    background-size: cover;
+    background-image: url('/images/cat.jpg');
+    filter: grayscale(77%) opacity(1) brightness(30%);
+    -webkit-filter: grayscale(77%) opacity(1) brightness(30%);
+}

@@ -21,6 +21,10 @@ img {
   height: 100%;
 }
 
+.fab {
+  font-size: 1.5em;
+}
+
 .navbar li {
   list-style: none;
   padding: 1em;
@@ -128,7 +132,7 @@ body {
 }
 
 section.top-header {
-  background-color: #090909;
+  position: relative;
   height: 100vh;
   color: white;
 }
@@ -170,8 +174,8 @@ section.top-header a {
 
 .documentation-button:hover {
   background-color: #090909;
-  -webkit-transition: 150ms;
-  transition: 150ms;
+  -webkit-transition: 250ms;
+  transition: 250ms;
 }
 
 .source_code-button {
@@ -181,7 +185,19 @@ section.top-header a {
 .source_code-button:hover {
   border: 1px solid #e02450;
   color: #e02450;
-  -webkit-transition: 150ms;
-  transition: 150ms;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+
+.backgroundImg {
+  position: absolute;
+  z-index: -2;
+  height: 100%;
+  width: 100%;
+  background-color: #090909;
+  background-size: cover;
+  background-image: url("/images/cat.jpg");
+  filter: grayscale(77%) opacity(1) brightness(30%);
+  -webkit-filter: grayscale(77%) opacity(1) brightness(30%);
 }
 /*# sourceMappingURL=main.css.map */
