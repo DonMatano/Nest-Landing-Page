@@ -2,3 +2,16 @@
 @import './base/_base-dir';
 @import './layouts/_layouts-dir';
 @import './components/_components-dir';
+
+
+
+    @media  (max-width: 560px) {
+        .hidden-sm.navbar-item {
+            display: none;
+        }
+    }
+    @media  (max-width: 480px) {
+        body{
+            font-size: 0.8rem;
+        }
+    }

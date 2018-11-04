@@ -161,7 +161,7 @@ section.top-header a {
   display: block;
   border-radius: 0.8em;
   width: 13em;
-  padding: 0.5rem 2rem;
+  padding: 0.5em 2em;
   font-size: 0.9em;
   text-align: center;
   margin: 1em;
@@ -199,5 +199,17 @@ section.top-header a {
   background-image: url("/images/cat.jpg");
   filter: grayscale(77%) opacity(1) brightness(30%);
   -webkit-filter: grayscale(77%) opacity(1) brightness(30%);
+}
+
+@media (max-width: 560px) {
+  .hidden-sm.navbar-item {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 0.8rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
